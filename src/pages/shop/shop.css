@@ -3,6 +3,7 @@
   text-align: center;
   font-size: 40px;
 }
+
 .products {
   width: 100%;
   height: auto;
@@ -23,7 +24,15 @@
 }
 
 .product img {
-  width: 400px;
+  width: 20vw;
+  border: 1px solid darkgreen;
+
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .product .description {

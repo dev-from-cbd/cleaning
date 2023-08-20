@@ -1,8 +1,8 @@
-import product1 from "./assets/1.png";
-import product2 from "./assets/2.png";
-import product3 from "./assets/3.png";
-import product4 from "./assets/4.png";
-import product5 from "./assets/5.png";
+import product1 from "./assets/products/1.png";
+import product2 from "./assets/products/2.png";
+import product3 from "./assets/products/3.png";
+import product4 from "./assets/products/4.png";
+import product5 from "./assets/products/5.png";
 
 export const PRODUCTS = [
   {
@@ -13,25 +13,25 @@ export const PRODUCTS = [
   },
   {
     id: 2,
-    productName: "Vacuum",
+    productName: "Window Vacuum",
     price: 999.98,
     productImage: product2,
   },
   {
     id: 3,
-    productName: "Vacuum",
+    productName: "Mopping Vacuum",
     price: 999.97,
     productImage: product3,
   },
   {
     id: 4,
-    productName: "Vacuum",
+    productName: "Materials",
     price: 999.96,
     productImage: product4,
   },
   {
     id: 5,
-    productName: "Vacuum",
+    productName: "cleaning products, chemicals",
     price: 999.95,
     productImage: product5,
   },
