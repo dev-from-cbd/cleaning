@@ -6,8 +6,8 @@ import "./navbar.css";
 export const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="link">
-        <Link to="/"> Shop </Link>
+      <div className="links">
+        <Link to="/"> My Tools </Link>
         <Link to="/cart">
           <ShoppingCart size={32} />
         </Link>

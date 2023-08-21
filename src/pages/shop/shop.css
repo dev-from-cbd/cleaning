@@ -16,7 +16,11 @@
   border-radius: 15px;
   width: 300px;
   height: 350px;
-  margin: 100px;
+  margin: 20px;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,12 +31,13 @@
   width: 20vw;
   border: 1px solid darkgreen;
 
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-
   display: block;
   margin-left: auto;
   margin-right: auto;
+
+  margin-bottom: 10px;
+
+  padding-bottom: 10px;
 }
 
 .product .description {

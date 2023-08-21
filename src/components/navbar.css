@@ -1,7 +1,7 @@
 .navbar {
   width: 100%;
   height: 80px;
-  background-color: rgb(19, 19, 19);
+  background-color: darkgreen;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -16,6 +16,16 @@
 .links a {
   text-decoration: none;
   color: white;
-  margin-left: 20px;
+  margin-left: 60px;
   font-size: 25px;
+}
+
+.links a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.links a:visited {
+  color: orange;
+  font-weight: 900;
 }
