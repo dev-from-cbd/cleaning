@@ -13,7 +13,7 @@ export const Cart = () => {
   return (
     <div className="cart">
       <div>
-        <h1>Your Cart Items</h1>
+        <h1>Your ordering cart</h1>
       </div>
       <div className="cart">
         {PRODUCTS.map((product) =>
@@ -25,8 +25,8 @@ export const Cart = () => {
 
       {totalAmount > 0 ? (
         <div className="checkout">
-          <p> Subtotal: ${totalAmount} </p>
-          <button onClick={() => navigate("/")}> Continue Shopping </button>
+          <p className="subtotal"> Subtotal: ${totalAmount} </p>
+          <button onClick={() => navigate("/")}> Continue Ordering </button>
           <button
             onClick={() => {
               checkout();
@@ -38,7 +38,7 @@ export const Cart = () => {
           </button>
         </div>
       ) : (
-        <h1> Your Shopping Cart is Empty</h1>
+        <h1>is empty</h1>
       )}
     </div>
   );

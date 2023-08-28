@@ -31,6 +31,10 @@
   font-weight: bolder;
 }
 
+.subtotal {
+  text-align: center;
+}
+
 .checkout button {
   width: 150px;
   height: 50px;
@@ -39,5 +43,9 @@
   border: none;
   border-radius: 8px;
   margin: 10px;
+
+  margin-left: 60px;
+  margin-right: 60px;
+
   cursor: pointer;
 }
